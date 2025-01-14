@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "circle_array.h": "c",
+        "uart_driver.h": "c"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "projectName": "proj2",
+    "configurations": [
+        {
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceRoot}/build/UART_DRIVER.elf",
+            "name": "STM DEBUG",
+            "request": "launch",
+            "type": "cortex-debug",
+            "toolchainPrefix": "arm-none-eabi",
+            "gdbPath": "arm-none-eabi-gdb",
+            "servertype": "openocd",
+            "device": "STM32L476",
+            "interface": "swd",
+            // "svdFile": "${workspaceRoot}/mcu_support/stm32/f7xx/f746/STM32F746.svd",
+            "runToMain": true,
+            "searchDir": [
+                "${workspaceRoot}/Debug"
+            ],
+            "configFiles": [
+                "${workspaceRoot}/Debug/stlink-dap.cfg",
+                "${workspaceRoot}/Debug/stm32l4x.cfg",
+            ],
+            "debuggerArgs": [
+                "-d",
+                "${workspaceRoot}",
+            ],
+            "preRestartCommands": [
+                "add-symbol-file build/UART_DRIVER.elf",
+                "load",
+                "enable breakpoint",
+                "monitor reset"
+            ],
+            "showDevDebugOutput": true,
+        }
+    ]
+}
