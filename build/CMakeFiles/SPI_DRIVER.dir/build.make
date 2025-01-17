@@ -69,10 +69,24 @@ include CMakeFiles/SPI_DRIVER.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SPI_DRIVER.dir/flags.make
 
+CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
+CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/spi_driver.c
+CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/spi_driver.c
+
+CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/spi_driver.c > CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.i
+
+CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/spi_driver.c -o CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.s
+
 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/main.c
 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/main.c
 
 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/stm32l4xx_it.c
 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/stm32l4xx_it.c
 
 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.s: cmake_force
 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/stm32l4xx_hal_msp.c
 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/stm32l4xx_hal_msp.c
 
 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.s: cmake_force
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.s: cm
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.s
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_e
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_r
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.s
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.s
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.s
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c
 
 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.
 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/system_stm32l4xx.c
 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/system_stm32l4xx.c
 
 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.i: cmake_force
@@ -338,7 +352,7 @@ CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.s: cmake_force
 CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/sysmem.c
 CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/sysmem.c
 
 CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.i: cmake_force
@@ -352,7 +366,7 @@ CMakeFiles/SPI_DRIVER.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/syscalls.c
 CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj: CMakeFiles/SPI_DRIVER.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/syscalls.c
 
 CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj: CMakeFiles/SPI_DRIVER.dir/flags.make
 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj: /Users/tjmalaska/Desktop/SPI_DRIVER/startup_stm32l476xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj -c /Users/tjmalaska/Desktop/SPI_DRIVER/startup_stm32l476xx.s
 
 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.i: cmake_force
@@ -378,6 +392,7 @@ CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.s: cmake_force
 
 # Object files for target SPI_DRIVER
 SPI_DRIVER_OBJECTS = \
+"CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj" \
 "CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj" \
 "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj" \
 "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj" \
@@ -404,6 +419,7 @@ SPI_DRIVER_OBJECTS = \
 # External object files for target SPI_DRIVER
 SPI_DRIVER_EXTERNAL_OBJECTS =
 
+SPI_DRIVER.elf: CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
 SPI_DRIVER.elf: CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
 SPI_DRIVER.elf: CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
 SPI_DRIVER.elf: CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
@@ -428,7 +444,7 @@ SPI_DRIVER.elf: CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj
 SPI_DRIVER.elf: CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
 SPI_DRIVER.elf: CMakeFiles/SPI_DRIVER.dir/build.make
 SPI_DRIVER.elf: CMakeFiles/SPI_DRIVER.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable SPI_DRIVER.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tjmalaska/Desktop/SPI_DRIVER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable SPI_DRIVER.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SPI_DRIVER.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

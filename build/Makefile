@@ -153,6 +153,30 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SPI_DRIVER.dir/build.make CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/spi_driver.obj: Core/Src/spi_driver.c.obj
+.PHONY : Core/Src/spi_driver.obj
+
+# target to build an object file
+Core/Src/spi_driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SPI_DRIVER.dir/build.make CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+.PHONY : Core/Src/spi_driver.c.obj
+
+Core/Src/spi_driver.i: Core/Src/spi_driver.c.i
+.PHONY : Core/Src/spi_driver.i
+
+# target to preprocess a source file
+Core/Src/spi_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SPI_DRIVER.dir/build.make CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.i
+.PHONY : Core/Src/spi_driver.c.i
+
+Core/Src/spi_driver.s: Core/Src/spi_driver.c.s
+.PHONY : Core/Src/spi_driver.s
+
+# target to generate assembly for a file
+Core/Src/spi_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SPI_DRIVER.dir/build.make CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.s
+.PHONY : Core/Src/spi_driver.c.s
+
 Core/Src/stm32l4xx_hal_msp.obj: Core/Src/stm32l4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32l4xx_hal_msp.obj
 
@@ -653,6 +677,9 @@ help:
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
+	@echo "... Core/Src/spi_driver.obj"
+	@echo "... Core/Src/spi_driver.i"
+	@echo "... Core/Src/spi_driver.s"
 	@echo "... Core/Src/stm32l4xx_hal_msp.obj"
 	@echo "... Core/Src/stm32l4xx_hal_msp.i"
 	@echo "... Core/Src/stm32l4xx_hal_msp.s"

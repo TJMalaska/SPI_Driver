@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "/Users/tjmalaska/Desktop/SPI_DRIVER/3"
   "/Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Core/Inc"
   "/Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc"
   "/Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
@@ -31,6 +32,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/main.c" "CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj.d"
+  "/Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/spi_driver.c" "CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj" "gcc" "CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj.d"
   "/Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/stm32l4xx_hal_msp.c" "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj" "gcc" "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"
   "/Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/stm32l4xx_it.c" "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj" "gcc" "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj.d"
   "/Users/tjmalaska/Desktop/SPI_DRIVER/Core/Src/syscalls.c" "CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/SPI_DRIVER.dir/Core/Src/syscalls.c.obj.d"

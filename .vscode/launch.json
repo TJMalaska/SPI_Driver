@@ -4,7 +4,7 @@
     "configurations": [
         {
             "cwd": "${workspaceFolder}",
-            "executable": "${workspaceRoot}/build/UART_DRIVER.elf",
+            "executable": "${workspaceRoot}/build/SPI_DRIVER.elf",
             "name": "STM DEBUG",
             "request": "launch",
             "type": "cortex-debug",
@@ -13,7 +13,7 @@
             "servertype": "openocd",
             "device": "STM32L476",
             "interface": "swd",
-            // "svdFile": "${workspaceRoot}/mcu_support/stm32/f7xx/f746/STM32F746.svd",
+            "svdFile": "${workspaceRoot}/Debug/STM32L4x6.svd",
             "runToMain": true,
             "searchDir": [
                 "${workspaceRoot}/Debug"
@@ -27,7 +27,7 @@
                 "${workspaceRoot}",
             ],
             "preRestartCommands": [
-                "add-symbol-file build/UART_DRIVER.elf",
+                "add-symbol-file build/SPI_DRIVER.elf",
                 "load",
                 "enable breakpoint",
                 "monitor reset"

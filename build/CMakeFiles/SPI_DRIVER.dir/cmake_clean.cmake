@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj"
   "CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj.d"
+  "CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj"
+  "CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj.d"
   "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj"
   "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj.d"
   "CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj"

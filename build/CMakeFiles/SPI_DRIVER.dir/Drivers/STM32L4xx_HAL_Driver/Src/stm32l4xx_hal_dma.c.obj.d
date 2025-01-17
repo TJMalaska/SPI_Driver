@@ -7,20 +7,20 @@ CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.o
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include/core_cm4.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_version.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_compiler.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include/cmsis_gcc.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Include/mpu_armv7.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
- /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc_ex.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h \
  /Users/tjmalaska/Desktop/SPI_DRIVER/cmake/stm32cubemx/../../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio_ex.h \
