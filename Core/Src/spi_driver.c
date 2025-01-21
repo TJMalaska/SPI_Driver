@@ -8,9 +8,9 @@ void spi_init(SPI_TypeDef * SPIx, bool CPOL, bool CPHA, uint8_t direction, bool 
         RCC->AHB2ENR |= RCC_AHB2ENR_GPIOAEN;
     }
     //gpio alternate functions
-    GPIOA->MODER &= ~(GPIO_MODER_MODE5 | GPIO_MODER_MODE6 | GPIO_MODER_MODE7);
-    GPIOA->MODER |= GPIO_MODER_MODE5_1 | GPIO_MODER_MODE6_1 | GPIO_MODER_MODE7_1 ;
-    //GPIOE->AFR[1] = 5 << GPIO_AFRH_AFSEL12_Pos;
+    GPIOA->MODER &= ~(GPIO_MODER_MODE5 | GPIO_MODER_MODE6 | GPIO_MODER_MODE7 | GPIO_MODER_MODE8);
+    GPIOA->MODER |= GPIO_MODER_MODE5_1 | GPIO_MODER_MODE6_1 | GPIO_MODER_MODE7_1 | GPIO_MODER_MODE8_0;
+    //GPIOE->AFR[1] = 5 << GPIO_AFRH_AFSEL12_Pos; pa6
     GPIOA->AFR[0] |= 5 << GPIO_AFRL_AFSEL5_Pos;
     GPIOA->AFR[0] |= 5 << GPIO_AFRL_AFSEL6_Pos;
     GPIOA->AFR[0] |= 5 << GPIO_AFRL_AFSEL7_Pos;
@@ -50,16 +50,31 @@ void spi_tx(SPI_TypeDef * SPIx, uint8_t data){
 }
 
 void spi_transact(SPI_TypeDef * SPIx, uint8_t txbuf[], uint8_t rxbuf[], uint32_t txsize, uint32_t rxsize){
-    for(int i = 0; i < txsize; i++){
+    uint8_t dump;
+    GPIOA->ODR &= ~GPIO_ODR_OD8;
+    for(uint8_t i = 0; i < txsize; i++){
+        while(!(SPIx->SR & SPI_SR_TXE));
         spi_tx(SPIx, txbuf[i]);
-        while(SPIx->SR & SPI_SR_BSY){}
+        while(!(SPIx->SR & SPI_SR_RXNE));
+        spi_rx(SPIx, &dump);
+    }
+    for(uint8_t i = 0; i < rxsize; i++){
+        while(!(SPIx->SR & SPI_SR_TXE));
+        spi_tx(SPIx, 0x00);
+        while(!(SPIx->SR & SPI_SR_RXNE));
         spi_rx(SPIx, &rxbuf[i]);
     }
-    
+    while(SPIx->SR & SPI_SR_BSY);
+    __DSB();
+    GPIOA->ODR |= GPIO_ODR_OD8;  
 }
 
 void spi_rx(SPI_TypeDef * SPIx, uint8_t * pdata){
     * pdata = * (volatile uint8_t *)&SPIx->DR;
+}
+
+void spi_cs_toggle(SPI_TypeDef * SPIx){
+    GPIOA->ODR ^=GPIO_ODR_OD8;
 }
 
 

@@ -88,8 +88,9 @@ int main(void)
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
   spi_init(SPI1,0,0,2,0);
-  uint8_t txbuffer[2] = {0b10101010, 0b01010101};
-  uint8_t rxbuffer[1];
+  uint8_t txbuffer[1] = {0x90};
+  uint8_t rxbuffer[10];
+  spi_transact(SPI1,txbuffer, rxbuffer, 1, 10);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -97,7 +98,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    spi_transact(SPI1,txbuffer, rxbuffer, 2, 1);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

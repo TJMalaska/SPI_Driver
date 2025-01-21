@@ -8,4 +8,5 @@ void spi_tx(SPI_TypeDef * SPIx, uint8_t data);
 void spi_transact(SPI_TypeDef * SPIx, uint8_t txbuf[], uint8_t rxbuf[], uint32_t txsize, uint32_t rxsize);
 void spi_rx(SPI_TypeDef * SPIx, uint8_t * pdata);
 
+void spi_cs_toggle(SPI_TypeDef * SPIx);
 

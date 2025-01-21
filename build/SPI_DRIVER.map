@@ -302,6 +302,8 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
  .data          0x00000000        0x0 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
  .bss           0x00000000        0x0 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+ .text.spi_cs_toggle
+                0x00000000       0x24 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
  .group         0x00000000        0xc CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
  .group         0x00000000        0xc CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
@@ -2385,7 +2387,7 @@ LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x4)
 
-.text           0x08000188     0x1880
+.text           0x08000188     0x1904
                 0x08000188                        . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -2408,280 +2410,280 @@ LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  .text.spi_tx   0x080003b4       0x20 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
                 0x080003b4                spi_tx
  .text.spi_transact
-                0x080003d4       0x58 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+                0x080003d4       0xdc CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
                 0x080003d4                spi_transact
- .text.spi_rx   0x0800042c       0x22 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
-                0x0800042c                spi_rx
- *fill*         0x0800044e        0x2 
- .text.main     0x08000450       0x40 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
-                0x08000450                main
+ .text.spi_rx   0x080004b0       0x22 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+                0x080004b0                spi_rx
+ *fill*         0x080004d2        0x2 
+ .text.main     0x080004d4       0x40 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+                0x080004d4                main
  .text.SystemClock_Config
-                0x08000490       0xa2 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
-                0x08000490                SystemClock_Config
- *fill*         0x08000532        0x2 
+                0x08000514       0xa2 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+                0x08000514                SystemClock_Config
+ *fill*         0x080005b6        0x2 
  .text.MX_GPIO_Init
-                0x08000534       0xf0 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+                0x080005b8       0xf0 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
  .text.Error_Handler
-                0x08000624        0xc CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
-                0x08000624                Error_Handler
+                0x080006a8        0xc CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+                0x080006a8                Error_Handler
  .text.NMI_Handler
-                0x08000630        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000630                NMI_Handler
+                0x080006b4        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006b4                NMI_Handler
  .text.HardFault_Handler
-                0x08000638        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000638                HardFault_Handler
+                0x080006bc        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006bc                HardFault_Handler
  .text.MemManage_Handler
-                0x08000640        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000640                MemManage_Handler
+                0x080006c4        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006c4                MemManage_Handler
  .text.BusFault_Handler
-                0x08000648        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000648                BusFault_Handler
+                0x080006cc        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006cc                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000650        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000650                UsageFault_Handler
+                0x080006d4        0x8 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006d4                UsageFault_Handler
  .text.SVC_Handler
-                0x08000658        0xe CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000658                SVC_Handler
+                0x080006dc        0xe CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006dc                SVC_Handler
  .text.DebugMon_Handler
-                0x08000666        0xe CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000666                DebugMon_Handler
+                0x080006ea        0xe CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006ea                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000674        0xe CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000674                PendSV_Handler
+                0x080006f8        0xe CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006f8                PendSV_Handler
  .text.SysTick_Handler
-                0x08000682        0xc CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000682                SysTick_Handler
- *fill*         0x0800068e        0x2 
+                0x08000706        0xc CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000706                SysTick_Handler
+ *fill*         0x08000712        0x2 
  .text.HAL_MspInit
-                0x08000690       0x48 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x08000690                HAL_MspInit
+                0x08000714       0x48 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x08000714                HAL_MspInit
  .text.HAL_Init
-                0x080006d8       0x40 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x080006d8                HAL_Init
+                0x0800075c       0x40 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x0800075c                HAL_Init
  .text.HAL_InitTick
-                0x08000718       0x78 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000718                HAL_InitTick
+                0x0800079c       0x78 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x0800079c                HAL_InitTick
  .text.HAL_IncTick
-                0x08000790       0x28 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000790                HAL_IncTick
+                0x08000814       0x28 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000814                HAL_IncTick
  .text.HAL_GetTick
-                0x080007b8       0x18 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x080007b8                HAL_GetTick
+                0x0800083c       0x18 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x0800083c                HAL_GetTick
  .text.HAL_RCC_OscConfig
-                0x080007d0      0x7b8 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x080007d0                HAL_RCC_OscConfig
+                0x08000854      0x7b8 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08000854                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08000f88      0x200 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08000f88                HAL_RCC_ClockConfig
+                0x0800100c      0x200 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x0800100c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001188      0x118 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08001188                HAL_RCC_GetSysClockFreq
+                0x0800120c      0x118 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x0800120c                HAL_RCC_GetSysClockFreq
  .text.RCC_SetFlashLatencyFromMSIRange
-                0x080012a0       0xc0 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08001324       0xc0 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .text.HAL_GPIO_Init
-                0x08001360      0x354 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08001360                HAL_GPIO_Init
+                0x080013e4      0x354 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x080013e4                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x080016b4       0x30 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x080016b4                HAL_GPIO_WritePin
+                0x08001738       0x30 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08001738                HAL_GPIO_WritePin
  .text.HAL_PWREx_GetVoltageRange
-                0x080016e4       0x1c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x080016e4                HAL_PWREx_GetVoltageRange
+                0x08001768       0x1c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08001768                HAL_PWREx_GetVoltageRange
  .text.HAL_PWREx_ControlVoltageScaling
-                0x08001700       0xac CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08001700                HAL_PWREx_ControlVoltageScaling
+                0x08001784       0xac CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08001784                HAL_PWREx_ControlVoltageScaling
  .text.__NVIC_SetPriorityGrouping
-                0x080017ac       0x48 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001830       0x48 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x080017f4       0x1c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001878       0x1c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08001810       0x54 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001894       0x54 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x08001864       0x66 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- *fill*         0x080018ca        0x2 
+                0x080018e8       0x66 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ *fill*         0x0800194e        0x2 
  .text.SysTick_Config
-                0x080018cc       0x44 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001950       0x44 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08001910       0x16 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08001910                HAL_NVIC_SetPriorityGrouping
+                0x08001994       0x16 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08001994                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08001926       0x38 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08001926                HAL_NVIC_SetPriority
+                0x080019aa       0x38 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080019aa                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x0800195e       0x18 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x0800195e                HAL_SYSTICK_Config
- *fill*         0x08001976        0x2 
+                0x080019e2       0x18 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080019e2                HAL_SYSTICK_Config
+ *fill*         0x080019fa        0x2 
  .text.SystemInit
-                0x08001978       0x24 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08001978                SystemInit
+                0x080019fc       0x24 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+                0x080019fc                SystemInit
  .text.Reset_Handler
-                0x0800199c       0x50 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
-                0x0800199c                Reset_Handler
+                0x08001a20       0x50 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
+                0x08001a20                Reset_Handler
  .text.Default_Handler
-                0x080019ec        0x2 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
-                0x080019ec                TIM1_BRK_TIM15_IRQHandler
-                0x080019ec                EXTI2_IRQHandler
-                0x080019ec                TIM8_TRG_COM_IRQHandler
-                0x080019ec                TIM8_CC_IRQHandler
-                0x080019ec                TIM1_CC_IRQHandler
-                0x080019ec                TSC_IRQHandler
-                0x080019ec                TAMP_STAMP_IRQHandler
-                0x080019ec                EXTI3_IRQHandler
-                0x080019ec                LPTIM2_IRQHandler
-                0x080019ec                DFSDM1_FLT1_IRQHandler
-                0x080019ec                I2C3_ER_IRQHandler
-                0x080019ec                DFSDM1_FLT2_IRQHandler
-                0x080019ec                EXTI0_IRQHandler
-                0x080019ec                I2C2_EV_IRQHandler
-                0x080019ec                CAN1_RX0_IRQHandler
-                0x080019ec                FPU_IRQHandler
-                0x080019ec                TIM1_UP_TIM16_IRQHandler
-                0x080019ec                ADC1_2_IRQHandler
-                0x080019ec                SPI1_IRQHandler
-                0x080019ec                TIM6_DAC_IRQHandler
-                0x080019ec                TIM8_UP_IRQHandler
-                0x080019ec                DMA2_Channel2_IRQHandler
-                0x080019ec                DMA1_Channel4_IRQHandler
-                0x080019ec                SAI2_IRQHandler
-                0x080019ec                DFSDM1_FLT3_IRQHandler
-                0x080019ec                USART3_IRQHandler
-                0x080019ec                DMA1_Channel7_IRQHandler
-                0x080019ec                CAN1_RX1_IRQHandler
-                0x080019ec                LCD_IRQHandler
-                0x080019ec                UART5_IRQHandler
-                0x080019ec                ADC3_IRQHandler
-                0x080019ec                TIM4_IRQHandler
-                0x080019ec                DMA2_Channel1_IRQHandler
-                0x080019ec                QUADSPI_IRQHandler
-                0x080019ec                I2C1_EV_IRQHandler
-                0x080019ec                DMA1_Channel6_IRQHandler
-                0x080019ec                UART4_IRQHandler
-                0x080019ec                DMA2_Channel4_IRQHandler
-                0x080019ec                TIM3_IRQHandler
-                0x080019ec                RCC_IRQHandler
-                0x080019ec                DMA1_Channel1_IRQHandler
-                0x080019ec                Default_Handler
-                0x080019ec                DMA2_Channel7_IRQHandler
-                0x080019ec                EXTI15_10_IRQHandler
-                0x080019ec                TIM7_IRQHandler
-                0x080019ec                SDMMC1_IRQHandler
-                0x080019ec                TIM5_IRQHandler
-                0x080019ec                I2C3_EV_IRQHandler
-                0x080019ec                EXTI9_5_IRQHandler
-                0x080019ec                RTC_WKUP_IRQHandler
-                0x080019ec                PVD_PVM_IRQHandler
-                0x080019ec                SPI2_IRQHandler
-                0x080019ec                CAN1_TX_IRQHandler
-                0x080019ec                DMA2_Channel5_IRQHandler
-                0x080019ec                DMA1_Channel5_IRQHandler
-                0x080019ec                EXTI4_IRQHandler
-                0x080019ec                RNG_IRQHandler
-                0x080019ec                TIM1_TRG_COM_TIM17_IRQHandler
-                0x080019ec                DMA1_Channel3_IRQHandler
-                0x080019ec                COMP_IRQHandler
-                0x080019ec                WWDG_IRQHandler
-                0x080019ec                LPUART1_IRQHandler
-                0x080019ec                DMA2_Channel6_IRQHandler
-                0x080019ec                TIM2_IRQHandler
-                0x080019ec                EXTI1_IRQHandler
-                0x080019ec                USART2_IRQHandler
-                0x080019ec                DFSDM1_FLT0_IRQHandler
-                0x080019ec                I2C2_ER_IRQHandler
-                0x080019ec                DMA1_Channel2_IRQHandler
-                0x080019ec                TIM8_BRK_IRQHandler
-                0x080019ec                CAN1_SCE_IRQHandler
-                0x080019ec                FLASH_IRQHandler
-                0x080019ec                USART1_IRQHandler
-                0x080019ec                OTG_FS_IRQHandler
-                0x080019ec                SPI3_IRQHandler
-                0x080019ec                I2C1_ER_IRQHandler
-                0x080019ec                FMC_IRQHandler
-                0x080019ec                SWPMI1_IRQHandler
-                0x080019ec                LPTIM1_IRQHandler
-                0x080019ec                SAI1_IRQHandler
-                0x080019ec                DMA2_Channel3_IRQHandler
-                0x080019ec                RTC_Alarm_IRQHandler
+                0x08001a70        0x2 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
+                0x08001a70                TIM1_BRK_TIM15_IRQHandler
+                0x08001a70                EXTI2_IRQHandler
+                0x08001a70                TIM8_TRG_COM_IRQHandler
+                0x08001a70                TIM8_CC_IRQHandler
+                0x08001a70                TIM1_CC_IRQHandler
+                0x08001a70                TSC_IRQHandler
+                0x08001a70                TAMP_STAMP_IRQHandler
+                0x08001a70                EXTI3_IRQHandler
+                0x08001a70                LPTIM2_IRQHandler
+                0x08001a70                DFSDM1_FLT1_IRQHandler
+                0x08001a70                I2C3_ER_IRQHandler
+                0x08001a70                DFSDM1_FLT2_IRQHandler
+                0x08001a70                EXTI0_IRQHandler
+                0x08001a70                I2C2_EV_IRQHandler
+                0x08001a70                CAN1_RX0_IRQHandler
+                0x08001a70                FPU_IRQHandler
+                0x08001a70                TIM1_UP_TIM16_IRQHandler
+                0x08001a70                ADC1_2_IRQHandler
+                0x08001a70                SPI1_IRQHandler
+                0x08001a70                TIM6_DAC_IRQHandler
+                0x08001a70                TIM8_UP_IRQHandler
+                0x08001a70                DMA2_Channel2_IRQHandler
+                0x08001a70                DMA1_Channel4_IRQHandler
+                0x08001a70                SAI2_IRQHandler
+                0x08001a70                DFSDM1_FLT3_IRQHandler
+                0x08001a70                USART3_IRQHandler
+                0x08001a70                DMA1_Channel7_IRQHandler
+                0x08001a70                CAN1_RX1_IRQHandler
+                0x08001a70                LCD_IRQHandler
+                0x08001a70                UART5_IRQHandler
+                0x08001a70                ADC3_IRQHandler
+                0x08001a70                TIM4_IRQHandler
+                0x08001a70                DMA2_Channel1_IRQHandler
+                0x08001a70                QUADSPI_IRQHandler
+                0x08001a70                I2C1_EV_IRQHandler
+                0x08001a70                DMA1_Channel6_IRQHandler
+                0x08001a70                UART4_IRQHandler
+                0x08001a70                DMA2_Channel4_IRQHandler
+                0x08001a70                TIM3_IRQHandler
+                0x08001a70                RCC_IRQHandler
+                0x08001a70                DMA1_Channel1_IRQHandler
+                0x08001a70                Default_Handler
+                0x08001a70                DMA2_Channel7_IRQHandler
+                0x08001a70                EXTI15_10_IRQHandler
+                0x08001a70                TIM7_IRQHandler
+                0x08001a70                SDMMC1_IRQHandler
+                0x08001a70                TIM5_IRQHandler
+                0x08001a70                I2C3_EV_IRQHandler
+                0x08001a70                EXTI9_5_IRQHandler
+                0x08001a70                RTC_WKUP_IRQHandler
+                0x08001a70                PVD_PVM_IRQHandler
+                0x08001a70                SPI2_IRQHandler
+                0x08001a70                CAN1_TX_IRQHandler
+                0x08001a70                DMA2_Channel5_IRQHandler
+                0x08001a70                DMA1_Channel5_IRQHandler
+                0x08001a70                EXTI4_IRQHandler
+                0x08001a70                RNG_IRQHandler
+                0x08001a70                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08001a70                DMA1_Channel3_IRQHandler
+                0x08001a70                COMP_IRQHandler
+                0x08001a70                WWDG_IRQHandler
+                0x08001a70                LPUART1_IRQHandler
+                0x08001a70                DMA2_Channel6_IRQHandler
+                0x08001a70                TIM2_IRQHandler
+                0x08001a70                EXTI1_IRQHandler
+                0x08001a70                USART2_IRQHandler
+                0x08001a70                DFSDM1_FLT0_IRQHandler
+                0x08001a70                I2C2_ER_IRQHandler
+                0x08001a70                DMA1_Channel2_IRQHandler
+                0x08001a70                TIM8_BRK_IRQHandler
+                0x08001a70                CAN1_SCE_IRQHandler
+                0x08001a70                FLASH_IRQHandler
+                0x08001a70                USART1_IRQHandler
+                0x08001a70                OTG_FS_IRQHandler
+                0x08001a70                SPI3_IRQHandler
+                0x08001a70                I2C1_ER_IRQHandler
+                0x08001a70                FMC_IRQHandler
+                0x08001a70                SWPMI1_IRQHandler
+                0x08001a70                LPTIM1_IRQHandler
+                0x08001a70                SAI1_IRQHandler
+                0x08001a70                DMA2_Channel3_IRQHandler
+                0x08001a70                RTC_Alarm_IRQHandler
  *(.glue_7)
- .glue_7        0x080019ee        0x0 linker stubs
+ .glue_7        0x08001a72        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080019ee        0x0 linker stubs
+ .glue_7t       0x08001a72        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x080019ee        0x2 
- .eh_frame      0x080019f0        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x08001a72        0x2 
+ .eh_frame      0x08001a74        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x080019f0        0x4 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x080019f0                _init
- .init          0x080019f4        0x8 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08001a74        0x4 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x08001a74                _init
+ .init          0x08001a78        0x8 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x080019fc        0x4 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x080019fc                _fini
- .fini          0x08001a00        0x8 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08001a08                        . = ALIGN (0x4)
-                0x08001a08                        _etext = .
+ .fini          0x08001a80        0x4 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x08001a80                _fini
+ .fini          0x08001a84        0x8 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08001a8c                        . = ALIGN (0x4)
+                0x08001a8c                        _etext = .
 
-.vfp11_veneer   0x08001a08        0x0
- .vfp11_veneer  0x08001a08        0x0 linker stubs
+.vfp11_veneer   0x08001a8c        0x0
+ .vfp11_veneer  0x08001a8c        0x0 linker stubs
 
-.v4_bx          0x08001a08        0x0
- .v4_bx         0x08001a08        0x0 linker stubs
+.v4_bx          0x08001a8c        0x0
+ .v4_bx         0x08001a8c        0x0 linker stubs
 
-.iplt           0x08001a08        0x0
- .iplt          0x08001a08        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08001a8c        0x0
+ .iplt          0x08001a8c        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08001a08       0x40
-                0x08001a08                        . = ALIGN (0x4)
+.rodata         0x08001a8c       0x40
+                0x08001a8c                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08001a08       0x10 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08001a08                AHBPrescTable
+                0x08001a8c       0x10 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08001a8c                AHBPrescTable
  .rodata.MSIRangeTable
-                0x08001a18       0x30 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08001a18                MSIRangeTable
-                0x08001a48                        . = ALIGN (0x4)
+                0x08001a9c       0x30 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08001a9c                MSIRangeTable
+                0x08001acc                        . = ALIGN (0x4)
 
-.rel.dyn        0x08001a48        0x0
- .rel.iplt      0x08001a48        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08001acc        0x0
+ .rel.iplt      0x08001acc        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ARM.extab      0x08001a48        0x0
-                0x08001a48                        . = ALIGN (0x4)
+.ARM.extab      0x08001acc        0x0
+                0x08001acc                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08001a48                        . = ALIGN (0x4)
+                0x08001acc                        . = ALIGN (0x4)
 
-.ARM            0x08001a48        0x0
-                0x08001a48                        . = ALIGN (0x4)
-                0x08001a48                        __exidx_start = .
+.ARM            0x08001acc        0x0
+                0x08001acc                        . = ALIGN (0x4)
+                0x08001acc                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08001a48                        __exidx_end = .
-                0x08001a48                        . = ALIGN (0x4)
+                0x08001acc                        __exidx_end = .
+                0x08001acc                        . = ALIGN (0x4)
 
-.preinit_array  0x08001a48        0x0
-                0x08001a48                        . = ALIGN (0x4)
-                0x08001a48                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08001acc        0x0
+                0x08001acc                        . = ALIGN (0x4)
+                0x08001acc                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08001a48                        PROVIDE (__preinit_array_end = .)
-                0x08001a48                        . = ALIGN (0x4)
+                0x08001acc                        PROVIDE (__preinit_array_end = .)
+                0x08001acc                        . = ALIGN (0x4)
 
-.init_array     0x08001a48        0x4
-                0x08001a48                        . = ALIGN (0x4)
-                0x08001a48                        PROVIDE (__init_array_start = .)
+.init_array     0x08001acc        0x4
+                0x08001acc                        . = ALIGN (0x4)
+                0x08001acc                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08001a48        0x4 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08001a4c                        PROVIDE (__init_array_end = .)
-                0x08001a4c                        . = ALIGN (0x4)
+ .init_array    0x08001acc        0x4 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08001ad0                        PROVIDE (__init_array_end = .)
+                0x08001ad0                        . = ALIGN (0x4)
 
-.fini_array     0x08001a4c        0x4
-                0x08001a4c                        . = ALIGN (0x4)
+.fini_array     0x08001ad0        0x4
+                0x08001ad0                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08001a4c        0x4 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x08001ad0        0x4 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08001a50                        . = ALIGN (0x4)
-                0x08001a50                        _sidata = LOADADDR (.data)
+                0x08001ad4                        . = ALIGN (0x4)
+                0x08001ad4                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0xc load address 0x08001a50
+.data           0x20000000        0xc load address 0x08001ad4
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2702,17 +2704,17 @@ LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x2000000c                        _edata = .
 
 .tm_clone_table
-                0x2000000c        0x0 load address 0x08001a5c
+                0x2000000c        0x0 load address 0x08001ae0
  .tm_clone_table
                 0x2000000c        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  .tm_clone_table
                 0x2000000c        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtend.o
 
-.igot.plt       0x2000000c        0x0 load address 0x08001a5c
+.igot.plt       0x2000000c        0x0 load address 0x08001ae0
  .igot.plt      0x2000000c        0x0 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x2000000c                        . = ALIGN (0x4)
 
-.bss            0x2000000c       0x20 load address 0x08001a5c
+.bss            0x2000000c       0x20 load address 0x08001ae0
                 0x2000000c                        _sbss = .
                 0x2000000c                        __bss_start__ = _sbss
  *(.bss)
@@ -2729,7 +2731,7 @@ LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 0x2000002c                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x2000002c      0x604 load address 0x08001a5c
+                0x2000002c      0x604 load address 0x08001ae0
                 0x20000030                        . = ALIGN (0x8)
  *fill*         0x2000002c        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -2788,94 +2790,94 @@ LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v7e-m+fp/hard/libgcc.a
 
-.debug_frame    0x00000000     0x1588
+.debug_frame    0x00000000     0x15b0
  .debug_frame   0x00000000       0x20 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
  .debug_frame   0x00000020       0x2c /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
- .debug_frame   0x0000004c       0xac CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
- .debug_frame   0x000000f8       0x90 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
- .debug_frame   0x00000188      0x104 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_frame   0x0000028c       0x38 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_frame   0x000002c4      0x498 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_frame   0x0000075c      0x21c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_frame   0x00000978      0x14c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_frame   0x00000ac4      0x584 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_frame   0x00001048      0x4e8 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_frame   0x00001530       0x58 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_frame   0x0000004c       0xd4 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+ .debug_frame   0x00000120       0x90 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+ .debug_frame   0x000001b0      0x104 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_frame   0x000002b4       0x38 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_frame   0x000002ec      0x498 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_frame   0x00000784      0x21c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_frame   0x000009a0      0x14c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_frame   0x00000aec      0x584 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_frame   0x00001070      0x4e8 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_frame   0x00001558       0x58 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
 
-.debug_info     0x00000000     0x4d0a
- .debug_info    0x00000000      0x4de CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
- .debug_info    0x000004de      0x7ec CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
- .debug_info    0x00000cca      0x113 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_info    0x00000ddd      0x2b9 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_info    0x00001096      0xc09 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_info    0x00001c9f      0xc14 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_info    0x000028b3      0x757 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_info    0x0000300a      0x99e CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_info    0x000039a8      0xd81 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_info    0x00004729      0x5b1 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_info    0x00004cda       0x30 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
+.debug_info     0x00000000     0x4d71
+ .debug_info    0x00000000      0x545 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+ .debug_info    0x00000545      0x7ec CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+ .debug_info    0x00000d31      0x113 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_info    0x00000e44      0x2b9 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_info    0x000010fd      0xc09 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_info    0x00001d06      0xc14 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_info    0x0000291a      0x757 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_info    0x00003071      0x99e CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_info    0x00003a0f      0xd81 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_info    0x00004790      0x5b1 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_info    0x00004d41       0x30 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
 
-.debug_abbrev   0x00000000     0x118e
- .debug_abbrev  0x00000000      0x11b CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
- .debug_abbrev  0x0000011b      0x20e CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000329       0x73 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_abbrev  0x0000039c       0xc6 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_abbrev  0x00000462      0x243 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_abbrev  0x000006a5      0x2cb CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_abbrev  0x00000970      0x1cb CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_abbrev  0x00000b3b      0x1f9 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00000d34      0x31c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_abbrev  0x00001050      0x11a CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_abbrev  0x0000116a       0x24 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
+.debug_abbrev   0x00000000     0x11c5
+ .debug_abbrev  0x00000000      0x152 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+ .debug_abbrev  0x00000152      0x20e CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000360       0x73 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_abbrev  0x000003d3       0xc6 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000499      0x243 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_abbrev  0x000006dc      0x2cb CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_abbrev  0x000009a7      0x1cb CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000b72      0x1f9 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00000d6b      0x31c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001087      0x11a CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_abbrev  0x000011a1       0x24 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
 
-.debug_aranges  0x00000000      0x5e0
+.debug_aranges  0x00000000      0x5e8
  .debug_aranges
-                0x00000000       0x38 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+                0x00000000       0x40 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
  .debug_aranges
-                0x00000038       0x38 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+                0x00000040       0x38 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x00000070       0x60 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x00000078       0x60 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_aranges
-                0x000000d0       0x20 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x000000d8       0x20 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_aranges
-                0x000000f0      0x130 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x000000f8      0x130 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_aranges
-                0x00000220       0x90 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x00000228       0x90 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_aranges
-                0x000002b0       0x58 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x000002b8       0x58 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000308      0x160 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x00000310      0x160 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_aranges
-                0x00000468      0x128 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x00000470      0x128 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000590       0x28 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+                0x00000598       0x28 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
  .debug_aranges
-                0x000005b8       0x28 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
+                0x000005c0       0x28 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
 
 .debug_rnglists
-                0x00000000      0x444
+                0x00000000      0x44b
  .debug_rnglists
-                0x00000000       0x26 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+                0x00000000       0x2d CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
  .debug_rnglists
-                0x00000026       0x27 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+                0x0000002d       0x27 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x0000004d       0x43 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+                0x00000054       0x43 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_rnglists
-                0x00000090       0x13 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x00000097       0x13 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_rnglists
-                0x000000a3       0xdf CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x000000aa       0xdf CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_rnglists
-                0x00000182       0x6d CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x00000189       0x6d CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_rnglists
-                0x000001ef       0x3f CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x000001f6       0x3f CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_rnglists
-                0x0000022e      0x109 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x00000235      0x109 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_rnglists
-                0x00000337       0xda CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x0000033e       0xda CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_rnglists
-                0x00000411       0x1a CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+                0x00000418       0x1a CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
  .debug_rnglists
-                0x0000042b       0x19 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
+                0x00000432       0x19 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
 
 .debug_macro    0x00000000    0x243c6
  .debug_macro   0x00000000      0x1a5 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
@@ -2923,32 +2925,32 @@ LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  .debug_macro   0x00024096      0x198 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_macro   0x0002422e      0x198 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
 
-.debug_line     0x00000000     0x5dec
- .debug_line    0x00000000      0x733 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
- .debug_line    0x00000733      0x6fc CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
- .debug_line    0x00000e2f      0x6c5 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_line    0x000014f4      0x617 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_line    0x00001b0b      0xa1d CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_line    0x00002528      0xf71 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_line    0x00003499      0xa70 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_line    0x00003f09      0xbfe CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_line    0x00004b07      0xbb7 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_line    0x000056be      0x6b4 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_line    0x00005d72       0x7a CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
+.debug_line     0x00000000     0x5e9b
+ .debug_line    0x00000000      0x7e5 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+ .debug_line    0x000007e5      0x6f9 CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+ .debug_line    0x00000ede      0x6c5 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_line    0x000015a3      0x617 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_line    0x00001bba      0xa1d CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_line    0x000025d7      0xf71 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_line    0x00003548      0xa70 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_line    0x00003fb8      0xbfe CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00004bb6      0xbb7 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_line    0x0000576d      0x6b4 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_line    0x00005e21       0x7a CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
 
-.debug_str      0x00000000    0xde4bb
- .debug_str     0x00000000    0xde4bb CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
-                              0xdc80d (size before relaxing)
- .debug_str     0x000de4bb    0xdcbae CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
- .debug_str     0x000de4bb    0xdc779 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_str     0x000de4bb    0xdc840 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_str     0x000de4bb    0xdd3e0 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_str     0x000de4bb    0xdce27 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_str     0x000de4bb    0xdc95a CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_str     0x000de4bb    0xdcd3c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_str     0x000de4bb    0xdd05a CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_str     0x000de4bb    0xdc7e1 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_str     0x000de4bb       0x80 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
+.debug_str      0x00000000    0xde4ce
+ .debug_str     0x00000000    0xde4ce CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
+                              0xdc826 (size before relaxing)
+ .debug_str     0x000de4ce    0xdcbae CMakeFiles/SPI_DRIVER.dir/Core/Src/main.c.obj
+ .debug_str     0x000de4ce    0xdc779 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_str     0x000de4ce    0xdc840 CMakeFiles/SPI_DRIVER.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_str     0x000de4ce    0xdd3e0 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_str     0x000de4ce    0xdce27 CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_str     0x000de4ce    0xdc95a CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_str     0x000de4ce    0xdcd3c CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_str     0x000de4ce    0xdd05a CMakeFiles/SPI_DRIVER.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_str     0x000de4ce    0xdc7e1 CMakeFiles/SPI_DRIVER.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_str     0x000de4ce       0x80 CMakeFiles/SPI_DRIVER.dir/startup_stm32l476xx.s.obj
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/SPI_DRIVER.dir/Core/Src/spi_driver.c.obj
